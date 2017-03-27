@@ -1,11 +1,4 @@
-
-```{r }
----
-title: "Reproducible Research Assignment 1"
-author: "Katrina Shanley"
-date: "24 March 2017"
-output: html_document
----
+# Reproducible Research Assignment 1
 
 ## Loading and preprocessing the data
 
@@ -135,5 +128,3 @@ ggplot(weekday, aes(x=Interval, y=Steps, color=Day)) +
 ```
 
 The plot shows that there is increased activity on weekday mornings, however overall activity throughout the day is higher on weekends.
-```
-
